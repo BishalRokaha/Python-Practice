@@ -26,14 +26,14 @@
 
 #Create a function that returns both the area and circumference of a circle given its radius.
 
-import math
-def circle(radius):
-    area=math.pi*radius*radius
-    circumference=2*math.pi*radius
-    return round(area,0),round(circumference,0)   #round method to make decimal point upto 2   
-a,b=circle(7)
-print("area:",a)
-print("circumference:",b)
+# import math
+# def circle(radius):
+#     area=math.pi*radius*radius
+#     circumference=2*math.pi*radius
+#     return round(area,0),round(circumference,0)   #round method to make decimal point upto 2   
+# a,b=circle(7)
+# print("area:",a)
+# print("circumference:",b)
 
 #write a function that greets a user. If no name is provided,it should greet with default name.
 
@@ -62,7 +62,7 @@ print("circumference:",b)
 #     for key,value in kwargs.items():
 #         print(f"{key}:{value}")
 # print_kwargs( Name="Bishal", Power="Learn")
-# print_kwargs( Name="Kashish Bhandari")
+# print_kwargs( Name="Kashish B")
 # print_kwargs( Name="Bishal", Power="Learn", anime="Naruse")
  
 #Write a generator function that yields even numbers upto a specified limit.
